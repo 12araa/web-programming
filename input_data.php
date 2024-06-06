@@ -30,8 +30,8 @@
         VAlUES ('$nim', '$nama', '$telepon', '$jurusan', '$alamat')";
 
   if(mysqli_query($conn, $sql)){
-    // echo "Input data berhasil";
-    header("Location: koneksi.php");
+    echo "Input data berhasil";
+    header("Location: tampil_data.php");
     exit;
 
   }else{
